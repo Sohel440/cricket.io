@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Player Selector</title>
+</head>
+<body>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .team {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .player {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            background-color: #f2f2f2;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        label {
+            flex-basis: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        select {
+            flex-basis: 100%;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            border: 1px solid #ccc;
+        }
+
+        #scrapButton {
+            flex-basis: 100%;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        #scrapButton:hover {
+            background-color: #45a049;
+        }
+
+        #scrapMessage {
+            margin-top: 1rem;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <html lang="en">
+        <head>
+            <style>
+                .team {
+                    margin-bottom: 1em;
+                }
+                .player {
+                    margin-right: 1em;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Cricket Match</h1>
+        
+            <div class="team">
+                <h2>Venue</h2>
+                <div class="player">select venue</div>
+            </div>
+            <div class="team">
+          <h2>1st innings batting team </h2>
+<select id="firstSelect">
+  <option value="1st Innings Batting Team">1st Innings Batting Team</option>
+  <option value="CSK">CSK</option>
+  <option value="DC">DC</option>
+  <option value="GT">GT</option>
+  <option value="MI">MI</option>
+  <option value="KKR">KKR</option>
+  <option value="SRH">SRH</option>
+  <option value="PBKS">PBKS</option>
+  <option value="LSG">LSG</option>
+  <option value="RCB">RCB</option>
+  <option value="RR">RR</option>
+</select>
+            <div> <h2>1st Innings Batting team players</h2>
+            </div>
+<html>
+<head>
+    <script src="/jj.js"></script>
+</head>
+<body>
+
+    <select id="firstSelect">
+        
+    </select>
+
+    <select id="secondSelect">
+        
+    </select>
+
+    <select id="thirdSelect">
+        
+    </select>
+
+    <select id="forthSelect">
+       
+    </select>
+
+    <select id="fifthSelect">
+        
+    </select>
+
+    <select id="sixthSelect">
+        
+    </select>
+
+    <select id="seventhSelect">
+       
+    </select>
+
+    <select id="eighthSelect">
+      
+    </select>
+
+    <select id="ninthSelect">
+        
+    </select>
+
+    <select id="tenthSelect">
+      
+    </select>
+
+    <select id="eleventhSelect">
+    
+     
+    </select>
+
+    <select id="twelvthSelect">
+       
+    </select>
+    <div class="team">
+        <h2>2nd innings batting team </h2>
+        <select id="teamSelect">
+          <option value="2nd Innings Batting Team">2nd Innings Batting Team</option>
+          <option value="team1">CSK</option>
+          <option value="DC">DC</option>
+          <option value="GT">GT</option>
+          <option value="MI">MI</option>
+          <option value="KKR">KKR</option>
+          <option value="SRH">SRH</option>
+          <option value="PBKS">PBKS</option>
+          <option value="LSG">LSG</option>
+          <option value="RCB">RCB</option>
+          <option value="RR">RR</option>
+        </select>
+      </div>
+    <div> <h2>2nd Innings Batting team players</h2>
+    </div>
+    
+
+    <select id="playerSelect">
+       
+    </select>
+
+    <select id="playerSelect">
+        
+    </select>
+
+    <select id="playerSelect">
+        
+    </select>
+
+    <select id="playerSelect">
+        
+    </select>
+
+    <select id="playerSelect">
+       
+    </select>
+
+    <select id="playerSelect">
+       
+    </select>
+
+    <select id="playerSelect">
+        
+    </select>
+
+    <select id="playerSelect">
+       
+    </select>
+
+    <select id="playerSelect">
+        
+    </select>
+
+    <select id="playerSelect">
+      
+    </select>
+
+    <select id="playerSelect">
+     
+    </select>
+
+    <select id="playerSelect">
+       
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  // Define an object containing players for each team
+  const players = {
+    team1: [
+      { name: "MS Dhoni", team: "team1" },
+      { name: "Moeen Ali", team: "team1" },
+      { name: "Deepak Chahar", team: "team1" },
+      { name: "Devon Conway", team: "team1" },
+      { name: "Tushar Deshpande", team: "team1"},
+      { name: "Ruturaj Gaikwad", team: "team1" },
+      { name: "Rajvardhan Hangargekar", team: "team1" },
+      { name: "Ravindra Jadeja", team: "team1" },
+      { name: "Ajay Mandal", team: "team1" },
+      { name: "Mukesh Choudhary", team: "team1" },
+      { name: "Matheesha Pathirana", team: "team1" },
+      { name: "Ajinkya Rahane", team: "team1" },
+      { name: "Shaik Rasheed", team: "team1" },
+      { name: ">Mitchell Santner", team: "team1" },
+      { name: ">Simarjeet Singh", team: "team1" },
+      { name: "Nishant Sindhu", team: "team1" },
+      { name: "Prashant Solanki", team: "team1" },
+      { name: "Maheesh Theekshana", team: "team1" },
+    ],
+    team2: [
+      { name: "Player 4", team: "team2" },
+      { name: "Player 5", team: "team2" },
+      { name: "Player 6", team: "team2" }
+    ],
+    team3: [
+      { name: "Player 7", team: "team3" },
+      { name: "Player 8", team: "team3" },
+      { name: "Player 9", team: "team3" }
+    ]
+  };
+
+  // Function to update player options based on selected team
+  function updatePlayerOptions(team) {
+    const playerSelect = document.getElementById("playerSelect");
+    playerSelect.innerHTML = ""; // Clear previous content
+    
+    players[team].forEach(player => {
+      const option = document.createElement("option");
+      option.value = player.name;
+      option.textContent = player.name;
+      playerSelect.appendChild(option);
+    });
+  }
+
+  // Event listener for when team is selected
+  document.getElementById("teamSelect").addEventListener("change", function() {
+    const selectedTeam = this.value;
+    updatePlayerOptions(selectedTeam);
+  });
+
+  // Initialize player options with default selected team
+  updatePlayerOptions(document.getElementById("teamSelect").value);
+</script>
+
+</body>
+</html>

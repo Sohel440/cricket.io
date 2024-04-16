@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Players Selection</title>
+    <link rel="stylesheet" href="styel.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .team {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .player {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            background-color: #f2f2f2;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        label {
+            flex-basis: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        select {
+            flex-basis: 100%;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            border: 1px solid #ccc;
+        }
+
+        #scrapButton {
+            flex-basis: 100%;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        #scrapButton:hover {
+            background-color: #45a049;
+        }
+
+        #scrapMessage {
+            margin-top: 1rem;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <html lang="en">
+        <head>
+            <style>
+                .team {
+                    margin-bottom: 1em;
+                }
+                .player {
+                    margin-right: 1em;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Cricket Match</h1>
+        
+            <div class="team">
+                <h2>Venue</h2>
+                <div class="player">select venue</div>
+            </div>
+            <div class="team">
+          <h2>1st innings batting team </h2>
+<select id="firstSelect">
+  <option value="1st Innings Batting Team">1st Innings Batting Team</option>
+  <option value="CSK">CSK</option>
+  <option value="DC">DC</option>
+  <option value="GT">GT</option>
+  <option value="MI">MI</option>
+  <option value="KKR">KKR</option>
+  <option value="SRH">SRH</option>
+  <option value="PBKS">PBKS</option>
+  <option value="LSG">LSG</option>
+  <option value="RCB">RCB</option>
+  <option value="RR">RR</option>
+</select>
+            <div> <h2>1st Innings Batting team players</h2>
+            </div>
+<html>
+<head>
+    <script src="/jj.js"></script>
+</head>
+<body>
+
+    <select id="firstSelect">
+        <option value="1stPlayer">1st Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="secondSelect">
+        <option value="2ndPlayer">2nd Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="thirdSelect">
+        <option value="3rdPlayer">3rd Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="forthSelect">
+        <option value="4thPlayer">4th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="fifthSelect">
+        <option value="5thPlayer">5th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="sixthSelect">
+        <option value="6thPlayer">6th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="seventhSelect">
+        <option value="7thPlayer">7th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="eighthSelect">
+        <option value="8thPlayer">8th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="ninthSelect">
+        <option value="9thPlayer">9th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="tenthSelect">
+        <option value="10thPlayer">10th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="eleventhSelect">
+        <option value="11thPlayer">11th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="twelvthSelect">
+        <option value="impactPlayer">impact Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+    <div class="team">
+        <h2>2nd innings batting team </h2>
+        <select id="secondSelect">
+          <option value="2nd Innings Batting Team">2nd Innings Batting Team</option>
+          <option value="CSK">CSK</option>
+          <option value="DC">DC</option>
+          <option value="GT">GT</option>
+          <option value="MI">MI</option>
+          <option value="KKR">KKR</option>
+          <option value="SRH">SRH</option>
+          <option value="PBKS">PBKS</option>
+          <option value="LSG">LSG</option>
+          <option value="RCB">RCB</option>
+          <option value="RR">RR</option>
+        </select>
+      </div>
+    <div> <h2>2nd Innings Batting team players</h2>
+    </div>
+    
+
+    <select id="firstSelect">
+        <option value="1stPlayer">1st Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="secondSelect">
+        <option value="2ndPlayer">2nd Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="thirdSelect">
+        <option value="3rdPlayer">3rd Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="forthSelect">
+        <option value="4thPlayer">4th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="fifthSelect">
+        <option value="5thPlayer">5th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="sixthSelect">
+        <option value="6thPlayer">6th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="seventhSelect">
+        <option value="7thPlayer">7th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="eighthSelect">
+        <option value="8thPlayer">8th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="ninthSelect">
+        <option value="9thPlayer">9th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="tenthSelect">
+        <option value="10thPlayer">10th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="eleventhSelect">
+        <option value="11thPlayer">11th Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+    <select id="twelvthSelect">
+        <option value="impactPlayer">impact Player</option>
+        <option value="MSDhoni">MS Dhoni</option>
+        <option value="MoeenAli">Moeen Ali</option>
+        <option value="DeepakChahar">Deepak Chahar</option>
+        <option value="DevonConway">Devon Conway</option>
+        <option value="TusharDeshpande">Tushar Deshpande</option>
+        <option value="ShivamDube">Shivam Dube</option>
+        <option value="RuturajGaikwad">Ruturaj Gaikwad</option>
+        <option value="RajvardhanHangargekar">Rajvardhan Hangargekar</option>
+        <option value="RavindraJadeja">Ravindra Jadeja</option>
+        <option value="AjayMandal">Ajay Mandal</option>
+        <option value="MukeshChoudhary">Mukesh Choudhary</option>
+        <option value="MatheeshaPathirana">Matheesha Pathirana</option>
+        <option value="AjinkyaRahane">Ajinkya Rahane</option>
+        <option value="ShaikRasheed">Shaik Rasheed</option>
+        <option value="MitchellSantner">Mitchell Santner</option>
+        <option value="SimarjeetSingh">Simarjeet Singh</option>
+        <option value="NishantSindhu">Nishant Sindhu</option>
+        <option value="PrashantSolanki">Prashant Solanki</option>
+        <option value="MaheeshTheekshana">Maheesh Theekshana</option>
+    </select>
+
+<html>
+<head>
+   <script src="/jjj.js"></script>
+</head>
+<body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cricket Players Selection</title>
+            <style>
+                table, th, td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    padding: 5px;
+                    text-align: center;
+                }
+            </style>
+       
+            <h2>Scrap Now</h2>
+            <button id="scrapButton">Scrap Now</button>
+        
+            <p id="scrapMessage"></p>
+        
+            <script>
+                const scrapButton = document.getElementById('scrapButton');
+                const scrapMessage = document.getElementById('scrapMessage');
+        
+                scrapButton.addEventListener('click', () => {
+                    scrapMessage.textContent = 'Scraping in progress...';
+                    // Implement scraping functionality here
+                    // For example, using Cheerio or Puppeteer
+        
+                    // After scraping, update the scrapMessage
+                    setTimeout(() => {
+                        scrapMessage.textContent = 'Scraping completed!';
+                    }, 2000);
+                });
+            </script>
+        </body>
+        </html>
+</body>
+</html>
+</head>
+<body>
+    <h1>Cricket Players Selection</h1>
+    <form>
+        <!-- form elements here -->
+    </form>
+
+    <h2>Selected Players</h2>
+    <!-- tables for selected players here -->

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    margin: auto;
+}
+.header{
+   display: flex;
+   
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    padding-top: 20px;background-color: rgb(231, 239, 239);
+}
+.header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(75, 24, 122);
+    font-weight: bolder;
+}
+.subheader{
+    margin: auto;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e4dfdfbb;
+    color: #1e2cc2;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #6d9bf1;
+    box-shadow: 0 3px 5px rgba(80, 211, 176, 0.648);
+  }
+
+  .footer{
+
+    padding-bottom: 25px;
+
+  }
+  .footer h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  .footer button{
+    padding: 12px 12px 12px 12px;
+    color: green;
+    font-weight: bold;
+  }
+  #scrapMessage{
+    color: #1e2cc2;
+    font-weight: bold;
+  }
